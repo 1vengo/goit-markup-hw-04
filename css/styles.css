@@ -1,0 +1,252 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  color: #2e2f42;
+  margin: 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding: 120px 0;
+}
+/* --- Header ---*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo {
+  margin-right: 76px;
+}
+.header-container {
+  display: flex;
+}
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+}
+.header-menu-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-adress-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.header-adress-link {
+  padding: 24px 0;
+}
+.header-adress-link:focus,
+.header-adress-link:hover {
+  color: #404bbf;
+}
+.header-accent {
+  color: #2e2f42;
+}
+.header-adress {
+  font-style: normal;
+  margin-left: auto;
+}
+.header-adress-link {
+  color: #434455;
+}
+
+/* --main --*/
+.main {
+  flex-grow: 1;
+}
+.main-section {
+  padding: 188px 0;
+}
+.main-btn:focus,
+.main-btn:hover {
+  background-color: #404bbf;
+}
+.main-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  padding: 16px 32px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.main-container {
+  text-align: center;
+}
+.main-section {
+  background-color: #2e2f42;
+}
+.main-about-list {
+  display: flex;
+  gap: 24px;
+}
+.main-about-item {
+  width: calc((100% - 72px) / 4);
+}
+.main-about-name {
+  margin-bottom: 8px;
+}
+.team-section {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+.main-team-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-team-item:not(:last-child) {
+  margin-right: 24px;
+}
+.team-text {
+  padding: 32px 0;
+  text-align: center;
+}
+.main-team-name {
+  margin-bottom: 8px;
+}
+
+.main-team-title {
+  margin-bottom: 72px;
+}
+
+.main-about-title,
+.main-portfolio-title {
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.main-team-item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.main-portfolio-title {
+  margin-bottom: 72px;
+}
+.main-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.portfolio-text {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+.main-portfolio-name {
+  margin-bottom: 8px;
+}
+
+.header-logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  width: 264px;
+  color: #f4f4fd;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
