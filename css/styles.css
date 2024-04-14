@@ -334,15 +334,6 @@ h1 {
   align-items: baseline;
 }
 
-.footer-block {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-}
-.footer-media-list {
-  display: flex;
-  align-items: baseline;
-}
 .footer-icon-links {
   display: flex;
   gap: 16px;
@@ -377,13 +368,13 @@ h1 {
   color: #f4f4fd;
 }
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
-.footer-block,
-.footer-media-list {
-  display: inline-block;
+.footer {
+  display: flex;
+  align-items: baseline;
 }
+
 .footer-media-text {
   font-weight: 500;
   font-size: 16px;
